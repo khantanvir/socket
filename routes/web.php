@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test',[HomeController::class,'call']);
+Route::get('/test11',[HomeController::class,'callsee']);
 Route::view('bbb','socket');
